@@ -6,140 +6,41 @@
 
 <title> Ceratin Games </title>
 </head>
-<body>
-	
-	<div class="title">
-		   slackroad.github.io
-	</div>
+	<body>
+		
+		<div class="title">
+			   slackroad.github.io
+		</div>
 
-	<div class="seperator"> 
-		<!-- Nothing (just a seperator) -->
-	</div>
-	
-	<button class= "qwop" onclick='startGame("http://play-qwop.com/games/qwop-new.swf")'> QWOP </button>
-	<button class= "tiq" onclick='startGame("http://www8.agame.com/mirror/flash/t/The_impossible_quiz/theimpossiblequiz.swf?gp=1")'> The Impossible Quiz </button>
-	<button class= "em2" onclick='startGame("http://www.flashgames247.com/misc-games/1032/electricman2.swf")'> Electric Man </button>
-	<button class= "hdb" onclick='startGame("http://media.y8.com/system/contents/6101/original/hot-dog-bush-y8.swf?1320879242")'> Hot Dog Bush </button>
-	<button class= "hobo" onclick='startGame("http://media.y8.com/system/contents/11849/original/hobobrawl1008.swf")'> Hobo </button>
-	<button class= "smb" onclick='startGame("http://www8.agame.com/a10/meatboy/MeatBoy.swf?gp=1")'> Super Meat Boy </button>
-	<button class= "whg3" onclick='startGame("http://www.addictinggames.com/newGames/puzzle-games/worldshardestgame3/worldshardestgame3.swf")'> Worlds Hardest Game 3</button>
-	
-	<div class="content" data-showing="false">
-	</div>
-
-	
-	<!-- RAIN TAKES UP ALOT xD-->
-	<!-- this script got from www.javascriptfreecode.com-Coded by: Krishna Eydat -->
-	<SCRIPT LANGUAGE="JavaScript">
-	<!-- Begin
-	var no = 50;
-	var speed = 1;
-	var ns4up = (document.layers) ? 1 : 0;
-	var ie4up = (document.all) ? 1 : 0;
-	var s, x, y, sn, cs;
-	var a, r, cx, cy;
-	var i, doc_width = 800, doc_height = 600;
-	if (ns4up) {
-	doc_width = self.innerWidth;
-	doc_height = self.innerHeight;
-	}
-	else
-	if (ie4up) {
-	doc_width = document.body.clientWidth;
-	doc_height = document.body.clientHeight;
-	}
-	x = new Array();
-	y = new Array();
-	r = new Array();
-	cx = new Array();
-	cy = new Array();
-	s = 8;
-	for (i = 0; i < no; ++ i) {
-	initRain();
-	if (ns4up) {
-	if (i == 0) {
-	document.write("<layer name=\"dot"+ i +"\" left=\"1\" ");
-	document.write("top=\"1\" visibility=\"show\"><font color=\"blue\">");
-	document.write(",</font></layer>");
-	}
-	else {
-	document.write("<layer name=\"dot"+ i +"\" left=\"1\" ");
-	document.write("top=\"1\" visibility=\"show\"><font color=\"blue\">");
-	document.write(",</font></layer>");
-	   }
-	}
-	else
-	if (ie4up) {
-	if (i == 0) {
-	document.write("<div id=\"dot"+ i +"\" style=\"POSITION: ");
-	document.write("absolute; Z-INDEX: "+ i +"; VISIBILITY: ");
-	document.write("visible; TOP: 15px; LEFT: 15px;\"><font color=\"blue\">");
-	document.write(",</font></div>");
-	}
-	else {
-	document.write("<div id=\"dot"+ i +"\" style=\"POSITION: ");
-	document.write("absolute; Z-INDEX: "+ i +"; VISIBILITY: ");
-	document.write("visible; TOP: 15px; LEFT: 15px;\"><font color=\"blue\">");
-	document.write(",</font></div>");
-		 }
-	   }
-	}
-	function initRain() {
-	a = 6;
-	r[i] = 1;
-	sn = Math.sin(a);
-	cs = Math.cos(a);
-	cx[i] = Math.random() * doc_width + 1;
-	cy[i] = Math.random() * doc_height + 1;
-	x[i] = r[i] * sn + cx[i];
-	y[i] = cy[i];
-	}
-	function makeRain() {
-	r[i] = 1;
-	cx[i] = Math.random() * doc_width + 1;
-	cy[i] = 1;
-	x[i] = r[i] * sn + cx[i];
-	y[i] = r[i] * cs + cy[i];
-	}
-	function updateRain() {
-	r[i] += s;
-	x[i] = r[i] * sn + cx[i];
-	y[i] = r[i] * cs + cy[i];
-	}
-	function raindropNS() {
-	for (i = 0; i < no; ++ i) {
-	updateRain();
-	if ((x[i] <= 1) || (x[i] >= (doc_width - 20)) || (y[i] >= (doc_height - 20))) {
-	makeRain();
-	doc_width = self.innerWidth;
-	doc_height = self.innerHeight;
-	}
-	document.layers["dot"+i].top = y[i];
-	document.layers["dot"+i].left = x[i];
-	}
-	setTimeout("raindropNS()", speed);
-	}
-	function raindropIE() {
-	for (i = 0; i < no; ++ i) {
-	updateRain();
-	if ((x[i] <= 1) || (x[i] >= (doc_width - 20)) || (y[i] >= (doc_height - 20))) {
-	makeRain();
-	doc_width = document.body.clientWidth;
-	doc_height = document.body.clientHeight;
-	}
-	document.all["dot"+i].style.pixelTop = y[i];
-	document.all["dot"+i].style.pixelLeft = x[i];
-	}
-	setTimeout("raindropIE()", speed);
-	}
-	if (ns4up) {
-	raindropNS();
-	}
-	else
-	if (ie4up) {
-	raindropIE();
-	}
-	//  End -->
-	</script>
+		<div class="seperator"> 
+			<!-- Nothing (just a seperator) -->
+		</div>
+		<table class= "toc">
+			<tc>
+				<tr>
+					<button class= "qwop" onclick='startGame("http://play-qwop.com/games/qwop-new.swf")'> QWOP </button>
+				</tr>
+				<tr>
+					<button class= "tiq" onclick='startGame("http://www8.agame.com/mirror/flash/t/The_impossible_quiz/theimpossiblequiz.swf?gp=1")'> The Impossible Quiz </button>
+				</tr>
+				<tr>
+					<button class= "em2" onclick='startGame("http://www.flashgames247.com/misc-games/1032/electricman2.swf")'> Electric Man </button>
+				</tr>
+				<tr>
+					<button class= "hdb" onclick='startGame("http://media.y8.com/system/contents/6101/original/hot-dog-bush-y8.swf?1320879242")'> Hot Dog Bush </button>
+				</tr>
+				<tr>
+					<button class= "hobo" onclick='startGame("http://media.y8.com/system/contents/11849/original/hobobrawl1008.swf")'> Hobo </button>
+				</tr>
+				<tr>
+					<button class= "smb" onclick='startGame("http://www8.agame.com/a10/meatboy/MeatBoy.swf?gp=1")'> Super Meat Boy </button>
+				</tr>
+				<tr>
+					<button class= "whg3" onclick='startGame("http://www.addictinggames.com/newGames/puzzle-games/worldshardestgame3/worldshardestgame3.swf")'> Worlds Hardest Game 3</button>
+				</tr>
+			</tc>
+		</table>
+		<div class="content" data-showing="false">
+		</div>
 	</body>
-	<font face="Tahoma"><a target="_blank" href="http://www.javascriptfreecode.com/"><span style="font-size: 8pt; text-decoration: none">JavaScript Free Code</span></a></font>
+</html>
