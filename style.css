@@ -37,7 +37,6 @@ body{
 }
 
 .game{
-	border: 1.5px solid black;
 }	
 
 .mainTable{
@@ -51,8 +50,12 @@ body{
 
 .mainTable td{
 	//border : 2px solid white;
+	user-select: none
 }
 
+.swfplus{
+ color:lime;
+}
 .gameButton{
  background: #ffffff;
  border-radius: 8px;
