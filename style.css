@@ -34,6 +34,8 @@ body{
 	width: 250px;
 	background-color: #5C5CE6;
 	padding: 5px;
+	font-size: 18;
+	color: white;
 }
 
 .game{
@@ -65,7 +67,7 @@ body{
 }
 
 .gameButton:hover{
- background-color:#FFFF00;
+ background-color:#FFFFB0;
 }
 
 //Way to hot
