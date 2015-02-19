@@ -62,6 +62,7 @@ body{
 
 .swfplus{
  color:lime;
+ font-weight: bold;
 }
 .gameButton{
  background: #ffffff;
@@ -75,7 +76,7 @@ body{
 }
 
 .gameButton:hover{
- background-color:#FFFF00;
+ background-color:#FFFF99;
 }
 
 
