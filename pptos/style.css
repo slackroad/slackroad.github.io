@@ -2,14 +2,38 @@
 	font-size: 30px;
 }
 
+.content{
+	background-color: #000088;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
 
+.welcome{
+	font-size:30px;
+	color: white;
+	margin: 10px;
+}
 
+.SpaceABH1{
+	color:white;
+	margin:50px;
+}
 
+.sabdssc{
+	color:white;
+	font-size: 24px;
+}
 
+.sabgaxbssc{
+	color:white;
+	font-size: 24px;
+}
 
-
-
-
+.downloadspaceab{
+	color:green;
+}
 
 
 
