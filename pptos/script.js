@@ -1,5 +1,6 @@
 var downloads = 0;
 function addOneToDownloads(){
 	downloads++;
-	dfsab.text = "Downloads For SpaceAB - " + downloads
+  ​​​​​  $("dfsab").html("Downloads: " + downloads);
+    return true;
 }
