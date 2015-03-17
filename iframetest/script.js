@@ -16,3 +16,8 @@ function urlSearch(){
 	var url = "http://" + $(".urlbox").val();
 	$(".browser").attr("src", url);
 }
+
+function urlSearchWithS(){
+	var url = "https://" + $(".urlbox").val();
+	$(".browser").attr("src", url);
+}
