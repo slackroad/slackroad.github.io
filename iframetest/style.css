@@ -1,0 +1,8 @@
+.browser{
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.urlbox{
+	width: 400px;
+}
