@@ -1,0 +1,16 @@
+.gtbib{
+	font-size: 125px;
+	color: orange;
+	margin: -9px;
+}
+
+body{
+	background-color: black;
+	color: white;
+	overflow-x: hidden;
+}
+
+.explanation{
+	margin-top: 50px;
+	font-size: 20px;
+}
