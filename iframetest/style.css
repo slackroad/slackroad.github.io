@@ -4,5 +4,15 @@
 }
 
 .urlbox{
-	width: 400px;
+	width: 300px;
+}
+
+.urlsearch{
+	border-radius: 40%;
+	background-color: white;
+}
+
+.urlsearchs{
+	border-radius: 40%;
+	background-color: white;
 }
