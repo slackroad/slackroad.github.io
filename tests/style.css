@@ -1,8 +1,9 @@
+.picture{
+	margin-left: 50px;
+}
 
-.title{
-	font-size: 50px;
-	width: 25%;
-	background-color: orange;
+.body{
+	background-color: green;
 }
 
 ::-webkit-scrollbar-track
